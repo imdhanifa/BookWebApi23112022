@@ -1,0 +1,178 @@
+{
+	"info": {
+		"_postman_id": "759d4891-d480-4060-a46f-8c5681dc0a32",
+		"name": "Book-Api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Book  get-ado-pat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-ado-pat",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-ado-pat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book get-ado-at",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-ado-at",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-ado-at"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book get-ef-pat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-ef-pat",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-ef-pat"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book get-ef-at",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-ef-at",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-ef-at"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book get-total-price",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-total-price",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-total-price"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book get-mla-formatted",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-mla-formatted",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-mla-formatted"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book get-Chicagostyle",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44302/Book/get-Chicagostyle",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"get-Chicagostyle"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Book save",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"publisher\": \"ABC\",\r\n    \"titleOfContainer\": \"ATitleOfContainer\",\r\n    \"title\": \"ATitle\",\r\n    \"authorFirstName\": \"Af\",\r\n    \"authorLastName\": \"AL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"basBC\",\r\n    \"titleOfContainer\": \"BTitleOfContainer\",\r\n    \"title\": \"BTitle\",\r\n    \"authorFirstName\": \"Bf\",\r\n    \"authorLastName\": \"BL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"CBC\",\r\n    \"titleOfContainer\": \"CTitleOfContainer\",\r\n    \"title\": \"CTitle\",\r\n    \"authorFirstName\": \"Cf\",\r\n    \"authorLastName\": \"AL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"ABC\",\r\n    \"titleOfContainer\": \"DTitleOfContainer\",\r\n    \"title\": \"ZTitle\",\r\n    \"authorFirstName\": \"Ef\",\r\n    \"authorLastName\": \"AL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"OBC\",\r\n    \"titleOfContainer\": \"RTitleOfContainer\",\r\n    \"title\": \"PTitle\",\r\n    \"authorFirstName\": \"Af\",\r\n    \"authorLastName\": \"UL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"UYBC\",\r\n    \"titleOfContainer\": \"ITitleOfContainer\",\r\n    \"title\": \"TRTitle\",\r\n    \"authorFirstName\": \"Af\",\r\n    \"authorLastName\": \"POL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"TYRBC\",\r\n    \"titleOfContainer\": \"IYTTitleOfContainer\",\r\n    \"title\": \"UITitle\",\r\n    \"authorFirstName\": \"Af\",\r\n    \"authorLastName\": \"IUL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"UYTBC\",\r\n    \"titleOfContainer\": \"KitleOfContainer\",\r\n    \"title\": \"FTitle\",\r\n    \"authorFirstName\": \"Kf\",\r\n    \"authorLastName\": \"AL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"UYFBC\",\r\n    \"titleOfContainer\": \"FTitleOfContainer\",\r\n    \"title\": \"STitle\",\r\n    \"authorFirstName\": \"Qf\",\r\n    \"authorLastName\": \"PL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"ABC\",\r\n    \"titleOfContainer\": \"WETitleOfContainer\",\r\n    \"title\": \"RTitle\",\r\n    \"authorFirstName\": \"Wf\",\r\n    \"authorLastName\": \"EL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"ABC\",\r\n    \"titleOfContainer\": \"ATitleOfContainer\",\r\n    \"title\": \"ATitle\",\r\n    \"authorFirstName\": \"Af\",\r\n    \"authorLastName\": \"AL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"DDEDC\",\r\n    \"titleOfContainer\": \"DSJKHD\",\r\n    \"title\": \"SADSD\",\r\n    \"authorFirstName\": \"DED\",\r\n    \"authorLastName\": \"FEFWE\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"WEWEDCDD\",\r\n    \"titleOfContainer\": \"HJJG\",\r\n    \"title\": \"ATiFGHFtleGHHD\",\r\n    \"authorFirstName\": \"GFHDAf\",\r\n    \"authorLastName\": \"HFG\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"ABC\",\r\n    \"titleOfContainer\": \"ERTRETRTitleOfContainer\",\r\n    \"title\": \"HGHGTitle\",\r\n    \"authorFirstName\": \"HTHGf\",\r\n    \"authorLastName\": \"GHL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  },\r\n  {\r\n    \"publisher\": \"GFHGFBC\",\r\n    \"titleOfContainer\": \"AGHGFTitleOfContainer\",\r\n    \"title\": \"AFGHGFTitle\",\r\n    \"authorFirstName\": \"GHAf\",\r\n    \"authorLastName\": \"AL\",\r\n    \"price\": 100,\r\n    \"publishDate\": \"2022-11-23T00:00:00\",\r\n    \"pageNumbers\": \"123\",\r\n    \"journalTitle\": \"hjklk\",\r\n    \"volumeNo\": \"1\",\r\n    \"issueNo\": \"3\",\r\n    \"pageRange\": \"0-456\",\r\n    \"urL_DOI\": \"https://demo.com\"\r\n  }\r\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:44302/Book/save",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44302",
+					"path": [
+						"Book",
+						"save"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
